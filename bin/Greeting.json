@@ -1,0 +1,170 @@
+{
+    "contractName": "Greeting",
+    "abi": [
+        {
+            "inputs": [],
+            "name": "greet",
+            "outputs": [
+                {
+                    "internalType": "string",
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "stateMutability": "pure",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"greet\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"c:/Users/Hp/Desktop/Web3/solidity/learn-solidity/helloNazu.sol\":\"Greeting\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/Users/Hp/Desktop/Web3/solidity/learn-solidity/helloNazu.sol\":{\"keccak256\":\"0xcf09e0b9f94ee0ffb31e5d0592c9e86315363c2275c19cec2cbf8d597ce17963\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://9bed7da930e34937f0a29dada0262b3ee6c00a6cbfe250f3a7dc662905d75a3a\",\"dweb:/ipfs/Qmbb49hqAMsCJ5Ta6DN2ZcZxcxvd7Pcy59zcYk5XUG4qpu\"]}},\"version\":1}",
+    "bytecode": "608060405234801561001057600080fd5b5060e48061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063cfae321714602d575b600080fd5b604080518082018252600c81526b48656c6c6f2c204e617a752160a01b60208201529051605991906062565b60405180910390f35b600060208083528351808285015260005b81811015608d578581018301518582016040015282016073565b506000604082860101526040601f19601f830116850101925050509291505056fea264697066735822122011eacf4c58c2c76663275ba75b43b69edab0f61cff36f5c44bb0c3a6ae1e501d64736f6c63430008130033",
+    "deployedBytecode": "6080604052348015600f57600080fd5b506004361060285760003560e01c8063cfae321714602d575b600080fd5b604080518082018252600c81526b48656c6c6f2c204e617a752160a01b60208201529051605991906062565b60405180910390f35b600060208083528351808285015260005b81811015608d578581018301518582016040015282016073565b506000604082860101526040601f19601f830116850101925050509291505056fea264697066735822122011eacf4c58c2c76663275ba75b43b69edab0f61cff36f5c44bb0c3a6ae1e501d64736f6c63430008130033",
+    "sourceMap": "62:121:0:-:0;;;;;;;;;;;;;;;;;;;",
+    "deployedSourceMap": "62:121:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;87:93;151:21;;;;;;;;;;;-1:-1:-1;;;151:21:0;;;;87:93;;;;151:21;87:93;:::i;:::-;;;;;;;;14:548:1;126:4;155:2;184;173:9;166:21;216:6;210:13;259:6;254:2;243:9;239:18;232:34;284:1;294:140;308:6;305:1;302:13;294:140;;;403:14;;;399:23;;393:30;369:17;;;388:2;365:26;358:66;323:10;;294:140;;;298:3;483:1;478:2;469:6;458:9;454:22;450:31;443:42;553:2;546;542:7;537:2;529:6;525:15;521:29;510:9;506:45;502:54;494:62;;;;14:548;;;;:::o",
+    "sourcePath": "c:/Users/Hp/Desktop/Web3/solidity/learn-solidity/helloNazu.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.19+commit.7dd6d404"
+    },
+    "ast": {
+        "absolutePath": "c:/Users/Hp/Desktop/Web3/solidity/learn-solidity/helloNazu.sol",
+        "exportedSymbols": {
+            "Greeting": [
+                10
+            ]
+        },
+        "id": 11,
+        "license": "MIT",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    "^",
+                    "0.8",
+                    ".0"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "35:23:0"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "Greeting",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 10,
+                "linearizedBaseContracts": [
+                    10
+                ],
+                "name": "Greeting",
+                "nameLocation": "71:8:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "body": {
+                            "id": 8,
+                            "nodeType": "Block",
+                            "src": "140:40:0",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "hexValue": "48656c6c6f2c204e617a7521",
+                                        "id": 6,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": true,
+                                        "kind": "string",
+                                        "lValueRequested": false,
+                                        "nodeType": "Literal",
+                                        "src": "158:14:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_stringliteral_73308ffc0e70c39f7d036e25ed389cb493472ffcd2c574f847c40f436bdba1e1",
+                                            "typeString": "literal_string \"Hello, Nazu!\""
+                                        },
+                                        "value": "Hello, Nazu!"
+                                    },
+                                    "functionReturnParameters": 5,
+                                    "id": 7,
+                                    "nodeType": "Return",
+                                    "src": "151:21:0"
+                                }
+                            ]
+                        },
+                        "functionSelector": "cfae3217",
+                        "id": 9,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "greet",
+                        "nameLocation": "96:5:0",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 2,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "101:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 5,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 4,
+                                    "mutability": "mutable",
+                                    "name": "",
+                                    "nameLocation": "-1:-1:-1",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 9,
+                                    "src": "125:13:0",
+                                    "stateVariable": false,
+                                    "storageLocation": "memory",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_string_memory_ptr",
+                                        "typeString": "string"
+                                    },
+                                    "typeName": {
+                                        "id": 3,
+                                        "name": "string",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "125:6:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage_ptr",
+                                            "typeString": "string"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "124:15:0"
+                        },
+                        "scope": 10,
+                        "src": "87:93:0",
+                        "stateMutability": "pure",
+                        "virtual": false,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 11,
+                "src": "62:121:0",
+                "usedErrors": []
+            }
+        ],
+        "src": "35:150:0"
+    },
+    "functionHashes": {
+        "greet()": "cfae3217"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "45600",
+            "executionCost": "99",
+            "totalCost": "45699"
+        },
+        "external": {
+            "greet()": "infinite"
+        }
+    }
+}
